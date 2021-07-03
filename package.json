@@ -4,7 +4,7 @@
   "description": "My Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Gaurav Sharma",
   "license": "ISC",
