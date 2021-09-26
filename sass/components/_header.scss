@@ -1,0 +1,46 @@
+.nevigation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $color-white;
+    @include defaultShadow;
+    &__logoBox{
+        padding:2rem;
+    }
+    &__active{
+        border-bottom: 2.5px solid #4070F4;
+    }
+    &__logo{
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-decoration: none;
+        color: $color-black;
+    }
+    &__menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 1px solid red;
+        width: 800px;
+        align-items: center;
+    }
+    &__item{
+        margin: 1.5rem;
+    }
+    &__link{
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: black;
+        text-transform:capitalize;
+        font-weight: 700;
+        padding: 1rem;
+        &:hover:not(.nevigation__active){
+            border-bottom: 2.5px solid #4070F4;
+        }
+    }
+
+    &__tootle{
+        font-size: 3rem;
+    }
+}

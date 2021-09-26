@@ -5,3 +5,7 @@
       clear: both;
     }
   }
+
+  @mixin defaultShadow {
+    box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
+  }
