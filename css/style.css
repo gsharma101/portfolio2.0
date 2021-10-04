@@ -14,7 +14,7 @@ body {
   font-weight: 400;
   /*font-size: 16px;*/
   line-height: 1.7;
-  color: #777; }
+  color: #0e2431; }
 
 .u-center-text {
   text-align: center !important; }
@@ -34,17 +34,30 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.resume__button {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 1.5rem 4rem;
+  border: 1px solid #4070F4;
+  border-radius: 1rem;
+  background-color: #4070F4;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 3rem; }
+  .resume__button:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    cursor: pointer; }
+
 .nevigation {
   width: 100%;
   display: flex;
   flex-direction: row;
+  padding: 1rem 0 1rem 0;
   justify-content: space-around;
   background-color: #fff;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1); }
   .nevigation__logoBox {
     padding: 2rem; }
-  .nevigation__active {
-    border-bottom: 2.5px solid #4070F4; }
   .nevigation__logo {
     font-size: 1.5rem;
     font-weight: 700;
@@ -54,7 +67,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 1px solid red;
     width: 800px;
     align-items: center; }
   .nevigation__item {
@@ -67,9 +79,39 @@ body {
     font-weight: 700;
     padding: 1rem; }
     .nevigation__link:hover:not(.nevigation__active) {
-      border-bottom: 2.5px solid #4070F4; }
+      border-bottom: 2.5px solid #4070F4;
+      padding: 1rem; }
   .nevigation__tootle {
     font-size: 3rem; }
+
+.home__container {
+  max-width: 100%;
+  display: flex;
+  padding: 5rem;
+  justify-content: space-around;
+  border: 1px solid red;
+  align-items: center; }
+
+.home__heading {
+  margin-top: 5rem; }
+  .home__heading h1 {
+    font-size: 6.5rem; }
+    .home__heading h1 span {
+      color: #4070F4; }
+
+#myImage {
+  width: 50rem; }
+
+.social__links {
+  margin-top: 15rem; }
+  .social__links ul {
+    list-style-type: none;
+    display: flex; }
+    .social__links ul :not(:last-child) {
+      margin-right: 5rem; }
+    .social__links ul a {
+      font-size: 3rem;
+      color: #0e2431; }
 
 .row {
   max-width: 114rem;

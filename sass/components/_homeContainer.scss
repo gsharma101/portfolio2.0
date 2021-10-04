@@ -1,0 +1,35 @@
+.home__container{
+    max-width: 100%;
+    display: flex;
+    padding: 5rem;
+    justify-content: space-around;
+    border: 1px solid red;
+    align-items: center;
+}
+.home__heading{
+    margin-top: 5rem;
+    h1{
+        font-size: 6.5rem;
+        span{
+            color: $color-primary;
+        }
+    }
+}
+#myImage{
+    width:50rem;
+}
+
+.social__links{
+    margin-top: 15rem;
+    ul{
+        list-style-type: none;
+        display: flex;
+        :not(:last-child){
+            margin-right: 5rem;
+        }
+        a{
+            font-size: 3rem;
+            color: $color-dark;
+        }
+    }
+}

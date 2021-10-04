@@ -1,0 +1,15 @@
+.resume__button{
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: 1.5rem 4rem;
+    border: 1px solid $color-primary;
+    border-radius: 1rem;
+    background-color: $color-primary;
+    color: $color-white;
+    font-weight: 600;
+    margin-top: 3rem;
+    &:hover{
+        @include defaultShadow;
+        cursor: pointer;
+    }
+}
