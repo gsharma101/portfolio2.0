@@ -1,0 +1,28 @@
+.sectionHeading{
+    font-size: 4rem;
+    color: $color-primary;
+    display: inline-block;
+    border-bottom: 5px solid $color-primary;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.section__sub--heading{
+    font-size: 3rem;
+    color: $color-dark;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.section__peragraph{
+    font-size: 2rem;
+    color: $color-dark;
+    text-transform: initial;
+}
+.footer__heading{
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+.footer__sub--heading{
+    font-size: 1.8rem;
+    text-transform: initial;
+}

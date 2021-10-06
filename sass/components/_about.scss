@@ -1,0 +1,15 @@
+.home__about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__img{
+    width: 40rem;
+    border-radius: 1.5rem;
+    @include  defaultShadow;
+    margin-right: 15rem;
+}
+.about__info--box{
+    width: 50%;
+}

@@ -1,0 +1,23 @@
+footer{
+    max-width: 100%;
+    padding: 3rem;
+    background-color: $color-dark;
+    color: $color-white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.social__links--footer{
+    margin-top: 2rem;
+    ul{
+        list-style-type: none;
+        display: flex;
+        :not(:last-child){
+            margin-right: 5rem;
+        }
+        a{
+            font-size: 3rem;
+            color: $color-white;
+        }
+    }
+}
