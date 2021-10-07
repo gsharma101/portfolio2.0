@@ -23,7 +23,8 @@ body {
   border-bottom: 5px solid #4070F4;
   padding-bottom: 5px;
   text-transform: capitalize;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  margin-bottom: 10rem; }
 
 .section__sub--heading {
   font-size: 3rem;
@@ -177,6 +178,39 @@ footer {
 .about__info--box {
   width: 50%; }
 
+.education__img {
+  width: 70rem;
+  border-radius: 3rem; }
+
+.project__row {
+  display: flex;
+  justify-content: center; }
+
+.project__card {
+  width: 28%;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 2rem 1rem; }
+  .project__card:not(:last-child) {
+    margin-right: 6rem; }
+
+.source {
+  margin-top: 2rem; }
+  .source a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #0e2431;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: .8rem; }
+
+.project__title {
+  font-size: 2rem; }
+
+.project__image {
+  width: 100%; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -204,4 +238,4 @@ footer {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 section {
-  padding: 3rem; }
+  padding: 10rem; }

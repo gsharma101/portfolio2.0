@@ -9,7 +9,7 @@
   "author": "Gaurav Sharma",
   "license": "ISC",
   "devDependencies": {
-    "jquery": "^3.6.0",
     "node-sass": "^6.0.1"
-  }
+  },
+  "dependencies": {}
 }
