@@ -2,10 +2,19 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding: 1rem 0 1rem 0;
     justify-content: space-around;
     background-color: $color-white;
     @include defaultShadow;
+    &__toggle{
+        display: none;
+        height: 3rem;
+        border: 2px solid red;
+        i{
+            font-size: 3rem;
+        }
+    }
     &__logoBox{
         padding:2rem;
     }

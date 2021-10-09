@@ -1,0 +1,21 @@
+.mobile__nevigation{
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    background-color: $color-dark;
+    &--items{
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+        a{
+            text-decoration: none;
+            text-transform: capitalize;
+            color: $color-white;
+            font-size: 2rem;
+        }
+    }
+}

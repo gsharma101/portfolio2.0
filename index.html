@@ -14,40 +14,49 @@
     <title>Gaurav Sharma</title>
   </head>
   <body>
+    <div class="mobile__nevigation">
+      <div class="mobile__nevigation--items"><a href="#home">home</a></div>
+      <div class="mobile__nevigation--items"><a href="#">about</a></div>
+      <div class="mobile__nevigation--items"><a href="#">eduction</a></div>
+      <div class="mobile__nevigation--items"><a href="#">skills</a></div>
+      <div class="mobile__nevigation--items"><a href="#">tech i know</a></div>
+      <div class="mobile__nevigation--items"><a href="#">projects</a></div>
+      <div class="mobile__nevigation--items"><a href="#">contact me</a></div>
+    </div>
     <header>
       <!-- Header -->
-      <div class="nevigation">
+      <div class="nevigation" id="home">
         <div class="nevigation__logoBox">
           <a class="nevigation__logo" href="#">Gaurav Sharma</a>
         </div>
 
         <div class="nevigation__menu">
           <div class="nevigation__item nevigation__active">
-            <a class="nevigation__link" href="#">home</a>
+            <a class="nevigation__link" href="#home">home</a>
           </div>
           <div class="nevigation__item">
-            <a class="nevigation__link" href="#">about</a>
+            <a class="nevigation__link" href="#about">about</a>
           </div>
           <div class="nevigation__item">
-            <a class="nevigation__link" href="#">education</a>
+            <a class="nevigation__link" href="#education">education</a>
           </div>
           <div class="nevigation__item">
-            <a class="nevigation__link" href="#">skills</a>
+            <a class="nevigation__link" href="#skills">skills</a>
           </div>
           <div class="nevigation__item">
-            <a class="nevigation__link" href="#">tech i know</a>
+            <a class="nevigation__link" href="#tech">tech i know</a>
           </div>
           <div class="nevigation__item">
-            <a class="nevigation__link" href="#">projects</a>
+            <a class="nevigation__link" href="#projects">projects</a>
           </div>
           <div class="nevigation__item">
-            <a class="nevigation__link" href="#">contact me</a>
+            <a class="nevigation__link" href="#contacts">contact me</a>
           </div>
         </div>
 
-        <!-- <div class="nevigation__toggle" id="nav-toggle">
+        <div class="nevigation__toggle" id="nav-toggle">
           <i class="bx bx-menu"></i>
-        </div> -->
+        </div>
       </div>
     </header>
     <main>
@@ -104,7 +113,7 @@
         </div>
       </section>
       <!-- About Me -->
-      <section>
+      <section id="about">
         <div class="u-center-text">
           <h1 class="sectionHeading u-margin-bottom-medium">
             A little About Me
@@ -126,13 +135,27 @@
           </div>
         </div>
       </section>
-      <section>
+      <section id="skills">
         <!-- skills -->
         <div class="u-center-text">
           <h1 class="sectionHeading">my skills</h1>
         </div>
+
+        <div class="skills__container">
+          <div class="skills__data">
+            <div class="skill__name">
+              <span>Web Development</span>
+            </div>
+            <div class="skill__percentage">85%</div>
+            <div class="skill__bar"></div>
+          </div>
+        </div>
+
+        <div class="skils__images">
+          <img src="images/tech.jpg" alt="tech" />
+        </div>
       </section>
-      <section>
+      <section id="education">
         <!-- Education -->
         <div class="u-center-text .u-margin-bottom-medium">
           <h1 class="sectionHeading">education</h1>
@@ -156,7 +179,7 @@
         </div>
       </section>
       <!-- Tech i am know -->
-      <section>
+      <section id="tech">
         <div class="u-center-text">
           <h1 class="sectionHeading">teck i am familiar</h1>
         </div>
@@ -202,7 +225,10 @@
             <span>Nodes</span>
           </div>
           <div class="tect__container--items">
-            <img src="images/icons/mariadb-logo-vert_blue-transparent.png" alt="php" />
+            <img
+              src="images/icons/mariadb-logo-vert_blue-transparent.png"
+              alt="php"
+            />
             <span>MarineDB</span>
           </div>
         </div>
@@ -231,7 +257,7 @@
         </div>
       </section>
       <!-- Projects -->
-      <section>
+      <section id="projects">
         <div class="u-center-text">
           <h1 class="sectionHeading">My Projects</h1>
         </div>
@@ -292,7 +318,7 @@
       </section>
     </main>
     <!-- footer -->
-    <footer>
+    <footer id="contacts">
       <div>
         <h1 class="footer__heading">Wan't to connect</h1>
       </div>
