@@ -1,0 +1,48 @@
+.skills__container{
+    display: flex;
+    justify-content: space-around;
+    .skills{
+        width: 40%;
+        padding: 7rem 0;
+        &__data{
+            display: flex;
+            margin: auto;
+            justify-content: space-between;
+            padding: 1.5rem;
+            position: relative;
+            border-radius: 1rem;
+            @include defaultShadowDark;
+        }
+        span{
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+        &__bar{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            
+            background-color: $color-primary;
+            height: .5rem;
+            width: 70%;
+            border-radius: .5rem;
+            font-size: 4rem;
+            z-index: 400;
+        }
+        &__1{
+            width: 80%;
+        }
+        &__2{
+            width: 75%;
+        }
+        &__3{
+            width: 65%;
+        }
+
+        &__image{
+            width: 70rem;
+            @include defaultShadow;
+            border-radius: 1rem;
+        }
+    }
+}

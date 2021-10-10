@@ -16,12 +16,12 @@
   <body>
     <div class="mobile__nevigation">
       <div class="mobile__nevigation--items"><a href="#home">home</a></div>
-      <div class="mobile__nevigation--items"><a href="#">about</a></div>
-      <div class="mobile__nevigation--items"><a href="#">eduction</a></div>
-      <div class="mobile__nevigation--items"><a href="#">skills</a></div>
-      <div class="mobile__nevigation--items"><a href="#">tech i know</a></div>
-      <div class="mobile__nevigation--items"><a href="#">projects</a></div>
-      <div class="mobile__nevigation--items"><a href="#">contact me</a></div>
+      <div class="mobile__nevigation--items"><a href="#about">about</a></div>
+      <div class="mobile__nevigation--items"><a href="#education">eduction</a></div>
+      <div class="mobile__nevigation--items"><a href="#skills">skills</a></div>
+      <div class="mobile__nevigation--items"><a href="#tech">tech i know</a></div>
+      <div class="mobile__nevigation--items"><a href="#projects">projects</a></div>
+      <div class="mobile__nevigation--items"><a href="#contacts">contact me</a></div>
     </div>
     <header>
       <!-- Header -->
@@ -140,19 +140,37 @@
         <div class="u-center-text">
           <h1 class="sectionHeading">my skills</h1>
         </div>
-
         <div class="skills__container">
-          <div class="skills__data">
-            <div class="skill__name">
-              <span>Web Development</span>
+          <div class="skills">
+            <div class="skills__data u-margin-bottom-medium">
+              <div class="skills__name">
+                <span>Full-Stack Development</span>
+              </div>
+              <div class="skills__bar skills__1"></div>
+              <div class="skills__percentage"><span>85%</span></div>
             </div>
-            <div class="skill__percentage">85%</div>
-            <div class="skill__bar"></div>
-          </div>
-        </div>
 
-        <div class="skils__images">
-          <img src="images/tech.jpg" alt="tech" />
+            <div class="skills__data u-margin-bottom-medium">
+              <div class="skills__name">
+                <span>DevOps</span>
+              </div>
+              <div class="skills__bar skills__2"></div>
+              <div class="skills__percentage"><span>75%</span></div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__name">
+                <span>Machine learning</span>
+              </div>
+              <div class="skills__bar skills__3"></div>
+              <div class="skills__percentage"><span>65%</span></div>
+            </div>
+          </div>
+
+          <div class="skills__image--box">
+            <img class="skills__image" src="images/tech.png
+            " alt="tech" />
+          </div>
         </div>
       </section>
       <section id="education">
@@ -161,20 +179,20 @@
           <h1 class="sectionHeading">education</h1>
         </div>
 
-        <div class="home__about">
-          <div class="about__info--box">
-            <h1 class="section__sub--heading">
-              Bachelor's Degree in Computer Science<br />
+        <div class="education__container">
+          <div class="education__info--box">
+            <h1 class="section__sub--heading u-margin-bottom-small">
+              Bachelor's Degree in Computer Science
               & Engineering
             </h1>
-            <p class="section__peragraph">
+            <p class="section__peragraph u-margin-bottom-small">
               Chandigarh Group of Colleges - Landran
             </p>
             <p class="section__peragraph">2019-2023</p>
           </div>
 
           <div class="education__img-box">
-            <img class="education__img" src="images/cgc.jpg" alt="myimage" />
+            <img class="education__img" src="images/cgc.png" alt="myimage" />
           </div>
         </div>
       </section>
@@ -261,7 +279,7 @@
         <div class="u-center-text">
           <h1 class="sectionHeading">My Projects</h1>
         </div>
-        <div class="project__row">
+        <div class="project__row u-margin-bottom-medium">
           <div class="project__card">
             <div class="project__image--box">
               <img
@@ -289,7 +307,7 @@
                 alt="natours"
               />
             </div>
-            <h1 class="project__title">Twitter Clone</h1>
+            <h1 class="project__title">Twitter Full-Stack Clone</h1>
             <div class="source">
               <a
                 href="https://github.com/gsharma101/Twitter-Social-Network-Clone"
@@ -308,10 +326,61 @@
                 alt="natours"
               />
             </div>
-            <h1 class="project__title">Instagram Clone</h1>
+            <h1 class="project__title">Instagram UI Clone</h1>
             <div class="source">
               <a href="http://">Source Code</a>
               <a href="http://">Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__row">
+          <div class="project__card">
+            <div class="project__image--box">
+              <img
+                class="project__image"
+                src="images/omnifood.jpg"
+                alt="natours"
+              />
+            </div>
+            <h1 class="project__title">Omnifood:Responsive Website</h1>
+            <div class="source">
+              <a href="https://github.com/gsharma101/Natours" target="_blank"
+                >Source Code</a
+              >
+              <a href="https://gsharma101.github.io/Natours/" target="_blank"
+                >Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__image--box">
+              <img class="project__image" src="images/pig.png" alt="natours" />
+            </div>
+            <h1 class="project__title">Pig game</h1>
+            <div class="source">
+              <a
+                href="https://github.com/gsharma101/Twitter-Social-Network-Clone"
+                target="_blank"
+                >Source Code</a
+              >
+              <a href="http://">Demo</a>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__image--box">
+              <img
+                class="project__image"
+                src="images/twitter__2021.jpg"
+                alt="natours"
+              />
+            </div>
+            <h1 class="project__title">Twitter 2021 UI</h1>
+            <div class="source">
+              <a href="https://github.com/gsharma101/twitter">Source Code</a>
+              <a href="https://gsharma101.github.io/twitter/">Demo</a>
             </div>
           </div>
         </div>

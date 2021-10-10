@@ -192,9 +192,20 @@ footer {
 .about__info--box {
   width: 50%; }
 
+.education__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.education__info--box {
+  width: 40%;
+  display: inline-block; }
+
 .education__img {
   width: 70rem;
-  border-radius: 3rem; }
+  border-radius: 1rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1); }
 
 .tect__container {
   display: flex;
@@ -243,6 +254,44 @@ footer {
 
 .project__image {
   width: 100%; }
+
+.skills__container {
+  display: flex;
+  justify-content: space-around; }
+  .skills__container .skills {
+    width: 40%;
+    padding: 7rem 0; }
+    .skills__container .skills__data {
+      display: flex;
+      margin: auto;
+      justify-content: space-between;
+      padding: 1.5rem;
+      position: relative;
+      border-radius: 1rem;
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3); }
+    .skills__container .skills span {
+      font-size: 1.8rem;
+      font-weight: 600; }
+    .skills__container .skills__bar {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: #4070F4;
+      height: .5rem;
+      width: 70%;
+      border-radius: .5rem;
+      font-size: 4rem;
+      z-index: 400; }
+    .skills__container .skills__1 {
+      width: 80%; }
+    .skills__container .skills__2 {
+      width: 75%; }
+    .skills__container .skills__3 {
+      width: 65%; }
+    .skills__container .skills__image {
+      width: 70rem;
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+      border-radius: 1rem; }
 
 .mobile__nevigation {
   z-index: 1000;

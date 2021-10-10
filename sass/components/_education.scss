@@ -1,4 +1,15 @@
+.education__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.education__info--box{
+    width: 40%;
+    display: inline-block;
+}
 .education__img{
     width: 70rem;
-    border-radius: 3rem;
+    border-radius: 1rem;
+    @include defaultShadow;
 }
