@@ -12,4 +12,7 @@
 }
 .about__info--box{
     width: 50%;
+    @include respond(tab-land){
+        text-align: center;
+    }
 }

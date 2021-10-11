@@ -1,3 +1,16 @@
+/*
+0 - 600px Phone
+600 - 900px Tablet portrait
+900 - 1200px Tablet landscape
+[1200 - 1800] is where our normal style apply
+1800px + : Tablet portrait
+?breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+1em  = 16px
+*/
 *,
 *::after,
 *::before {
@@ -8,6 +21,15 @@
 html {
   font-size: 62.5%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 80%; } }
 
 body {
   font-family: "Lato", sans-serif;
@@ -95,10 +117,15 @@ body {
   justify-content: space-around;
   background-color: #fff;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1); }
+  @media (max-width: 56.25em) {
+    .nevigation {
+      justify-content: space-between; } }
   .nevigation__toggle {
     display: none;
-    height: 3rem;
-    border: 2px solid red; }
+    height: 3rem; }
+    @media (max-width: 56.25em) {
+      .nevigation__toggle {
+        display: inline-block; } }
     .nevigation__toggle i {
       font-size: 3rem; }
   .nevigation__logoBox {
@@ -114,6 +141,9 @@ body {
     justify-content: center;
     width: 800px;
     align-items: center; }
+    @media (max-width: 56.25em) {
+      .nevigation__menu {
+        display: none; } }
   .nevigation__item {
     margin: 1.5rem; }
   .nevigation__link {
@@ -191,6 +221,9 @@ footer {
 
 .about__info--box {
   width: 50%; }
+  @media (max-width: 75em) {
+    .about__info--box {
+      text-align: center; } }
 
 .education__container {
   width: 100%;

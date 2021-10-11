@@ -5,12 +5,17 @@
     align-items: center;
     padding: 1rem 0 1rem 0;
     justify-content: space-around;
+    @include respond(tab-port){
+        justify-content: space-between;
+    }
     background-color: $color-white;
     @include defaultShadow;
     &__toggle{
         display: none;
+        @include respond(tab-port){
+            display: inline-block;
+        }
         height: 3rem;
-        border: 2px solid red;
         i{
             font-size: 3rem;
         }
@@ -26,6 +31,9 @@
     }
     &__menu{
         display: flex;
+        @include respond(tab-port){
+            display: none;
+        }
         flex-direction: row;
         justify-content: center;
         width: 800px;
