@@ -21,7 +21,7 @@ html {
   }
 
   @include respond(phone){ //width <= 600
-    font-size: 30%; //1rem = 4.8px, 4.8/16 = 30%
+    font-size: 40%; //1rem = 4.8px, 4.8/16 = 30%
   }
 
   @include respond(big-desktop){
