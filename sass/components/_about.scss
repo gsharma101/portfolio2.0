@@ -1,14 +1,21 @@
 .home__about{
     width: 100%;
     display: flex;
+    border: 1px solid pink;
     justify-content: center;
     align-items: center;
+    @include respond(phone){ //width <= 600
+        flex-direction: column;
+    }
 }
 .about__img{
     width: 40rem;
     border-radius: 1.5rem;
     @include  defaultShadow;
     margin-right: 15rem;
+    @include respond(phone){ //width <= 600
+        margin-right: 0;
+    }
 }
 .about__info--box{
     width: 50%;

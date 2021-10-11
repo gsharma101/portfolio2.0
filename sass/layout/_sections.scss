@@ -1,3 +1,6 @@
 section{
     padding: 6rem;
+    @include respond(phone){ //width <= 600
+        padding: 0;
+    }
 }

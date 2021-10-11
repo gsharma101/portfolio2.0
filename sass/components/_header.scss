@@ -5,15 +5,16 @@
     align-items: center;
     padding: 1rem 0 1rem 0;
     justify-content: space-around;
-    @include respond(tab-port){
+    @include respond(phone){ //width <= 600
         justify-content: space-between;
     }
     background-color: $color-white;
     @include defaultShadow;
     &__toggle{
         display: none;
-        @include respond(tab-port){
-            display: inline-block;
+        margin-right: 2rem;
+        @include respond(phone){ //width <= 600
+            display: block;
         }
         height: 3rem;
         i{
@@ -31,10 +32,10 @@
     }
     &__menu{
         display: flex;
-        @include respond(tab-port){
+        flex-direction: row;
+        @include respond(phone){ //width <= 600
             display: none;
         }
-        flex-direction: row;
         justify-content: center;
         width: 800px;
         align-items: center;

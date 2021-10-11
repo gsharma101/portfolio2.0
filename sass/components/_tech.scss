@@ -1,13 +1,21 @@
 .tect__container{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    border: 1px solid blue;
+    @include respond(phone){ //width <= 600
+        flex-direction: column;  
+        justify-content: center;
+        align-items: center;
+    }
 
     &--items{
         display: flex;
         justify-content: center;
         align-items: center;
         align-self: stretch;
+        @include respond(phone){ //width <= 600
+            justify-content: flex-start;
+            width: 50%;
+        }
         width: 100%;
         span{
             font-size: 2rem;

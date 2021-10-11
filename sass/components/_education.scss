@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    @include respond(phone){ //width <= 600
+        flex-direction: column;
+    }
 }
 .education__info--box{
     width: 40%;

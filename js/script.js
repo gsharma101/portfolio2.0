@@ -1,8 +1,7 @@
-'using strict';
+'use strict';
 const ToggleIcon = document.getElementById('nav-toggle');
 const mobileSideNev = document.getElementById('mobile__nevigation');
-ToggleIcon.addEventListener('click',mobileNev);
-
-function mobileNev(){
-    
+const mobileNev = function(){
+    mobileSideNev.style.display= 'block';
 }
+ToggleIcon.addEventListener('click', mobileNev);
