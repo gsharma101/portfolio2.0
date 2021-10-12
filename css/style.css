@@ -20,6 +20,7 @@
 
 html {
   font-size: 62.5%;
+  height: auto;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; }
   @media (max-width: 75em) {
     html {
@@ -39,7 +40,8 @@ body {
   font-weight: 400;
   /*font-size: 16px;*/
   line-height: 1.7;
-  color: #0e2431; }
+  color: #0e2431;
+  height: auto; }
 
 .sectionHeading {
   font-size: 4rem;
@@ -412,6 +414,10 @@ footer {
       box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
       border-radius: .5rem; }
 
+main {
+  position: relative;
+  height: auto; }
+
 .mobile__nevigation {
   z-index: 1000;
   display: none;
@@ -420,8 +426,7 @@ footer {
   right: 0;
   position: absolute;
   width: 75%;
-  height: 100vh;
-  margin-top: 8.8rem;
+  height: 100%;
   background-color: #0e2431;
   transition: .5s all; }
   .mobile__nevigation--items {

@@ -1,3 +1,7 @@
+main{
+    position: relative;
+    height: auto;
+}
 .mobile__nevigation{
     z-index: 1000;
     display: none;
@@ -6,8 +10,7 @@
     right: 0;
     position: absolute;
     width: 75%;
-    height: 100vh;
-    margin-top: 8.8rem;
+    height: 100%;
     background-color: $color-dark;
     transition: .5s all;
     &--items{
