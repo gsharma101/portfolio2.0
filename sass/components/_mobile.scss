@@ -4,12 +4,12 @@ main{
 }
 .mobile__nevigation{
     z-index: 1000;
-    display: none;
+    display: block;
     flex-direction: column;
     top: 0;
     right: 0;
     position: absolute;
-    width: 75%;
+    width: 0;
     height: 100%;
     background-color: $color-dark;
     transition: .5s all;
@@ -17,6 +17,7 @@ main{
         margin-top: 3rem;
         margin-bottom: 3rem;
         margin-left: 3rem;
+        display: none;
         a{
             text-decoration: none;
             text-transform: capitalize;
@@ -26,5 +27,8 @@ main{
     }
 }
 .width__display{
+    width: 75%;
+}
+.nevDisp{
     display: block;
 }
