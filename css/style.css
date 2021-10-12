@@ -243,10 +243,11 @@ footer {
       margin-right: 0; } }
 
 .about__info--box {
-  width: 50%; }
+  max-width: 50%; }
   @media (max-width: 75em) {
     .about__info--box {
-      text-align: center; } }
+      text-align: center;
+      max-width: 80%; } }
 
 .education__container {
   max-width: 100%;
@@ -283,6 +284,7 @@ footer {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1); }
 
 .tect__container {
+  max-width: 100%;
   display: flex; }
   .tect__container:not(:last-child) {
     margin-bottom: 8rem; }
@@ -454,6 +456,6 @@ footer {
 
 section {
   padding: 4rem; }
-  @media (max-width: 37.5em) {
+  @media (max-width: 56.25em) {
     section {
       padding: 0; } }

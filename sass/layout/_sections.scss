@@ -1,6 +1,6 @@
 section{
     padding: 4rem;
-    @include respond(phone){ //width <= 600
+    @include respond(tab-port){ //width <= 600
         padding: 0;
     }
 }

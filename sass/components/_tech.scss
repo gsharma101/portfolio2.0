@@ -1,4 +1,5 @@
 .tect__container{
+    max-width: 100%;
     display: flex;
     &:not(:last-child){
         margin-bottom: 8rem;
