@@ -1,7 +1,6 @@
 .home__about{
     max-width: 100%;
     display: flex;
-    border: 1px solid pink;
     justify-content: center;
     align-items: center;
     @include respond(phone){ //width <= 600

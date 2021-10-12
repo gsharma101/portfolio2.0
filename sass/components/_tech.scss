@@ -2,21 +2,25 @@
     max-width: 100%;
     display: flex;
     &:not(:last-child){
-        margin-bottom: 8rem;
+       margin-bottom: 8rem;
     }
-    @include respond(phone){ //width <= 600
+    @include respond(tab-port){ //width <= 600
         flex-direction: column;  
         justify-content: center;
         align-items: center;
+        &:not(:last-child){
+            margin-bottom:0;
+         }
     }
 
     &--items{
         display: flex;
         justify-content: center;
         align-items: center;
-        @include respond(phone){ //width <= 600
+        @include respond(tab-port){ //width <= 600
             justify-content: flex-start;
             width: 50%;
+            margin-bottom: 4rem;
         }
         width: 100%;
         span{
