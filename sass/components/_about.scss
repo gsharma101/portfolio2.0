@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    @include respond(phone){ //width <= 600
+    @include respond(tab-port){ //width <= 600
         flex-direction: column;
     }
 }
@@ -12,7 +12,7 @@
     border-radius: 1.5rem;
     @include  defaultShadow;
     margin-right: 15rem;
-    @include respond(phone){ //width <= 600
+    @include respond(tab-port){ //width <= 600
         margin-right: 0;
     }
 }
