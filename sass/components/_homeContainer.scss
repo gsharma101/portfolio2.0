@@ -3,6 +3,7 @@
     justify-content: space-around;
     @include respond(tab-port){ //width <= 600
       flex-direction: column;
+      align-items: center;
     }
 }
 .home__heading{
@@ -25,10 +26,6 @@
 .home__image{
     max-width: 100%;
     height: auto;
-    @include respond(tab-port){
-        transform: translate(10%,-20%);
-        width: 20rem;
-    }
 }
 
 .social__links{
