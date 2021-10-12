@@ -17,7 +17,7 @@ html {
   }
 
   @include respond(tab-port){ //width <= 600
-    font-size: 50%; //1rem = 8px, 8/16 = 50%
+    font-size: 60%; //1rem = 8px, 8/16 = 50%
   }
 
   @include respond(phone){ //width <= 600

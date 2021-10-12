@@ -16,16 +16,16 @@
         @include respond(phone){ //width <= 600
             display: block;
         }
-        height: 3rem;
+        height: 4rem;
         i{
-            font-size: 3rem;
+            font-size: 4rem;
         }
     }
     &__logoBox{
         padding:2rem;
     }
     &__logo{
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: 700;
         text-decoration: none;
         color: $color-black;
@@ -54,9 +54,5 @@
             border-bottom: 2.5px solid #4070F4;
             padding: 1rem;
         }
-    }
-
-    &__tootle{
-        font-size: 3rem;
     }
 }

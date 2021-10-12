@@ -1,18 +1,34 @@
 .education__container{
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    @include respond(phone){ //width <= 600
+    border: 1px solid red;
+    @include respond(tab-port){ //width <= 600
         flex-direction: column;
+        padding: 4rem 2rem;
     }
 }
 .education__info--box{
+    border: 1px solid red;
     width: 40%;
-    display: inline-block;
+    display: block;
+    @include respond(tab-port){ //width <= 600
+      text-align: center;
+      width: 80%;
+      margin-bottom: 4rem;
+    }
+}
+.education__img-box{
+    max-width: 45%;
+    @include respond(tab-port){ //width <= 600
+        max-width: 100%;
+      }
+    height: auto;
 }
 .education__img{
-    width: 70rem;
-    border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: .5rem;
     @include defaultShadow;
 }

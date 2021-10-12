@@ -1,24 +1,28 @@
 .project__row{
     display: flex;
-    border: 1px solid red;
     justify-content: center;
-    @include respond(phone){ //width <= 600
+    @include respond(tab-port){ //width <= 600
         flex-direction: column;
         align-items: center;
-        padding: 4rem 2rem;
     }
 }
 .project__card{
-    width: 25%;
-    @include respond(phone){ //width <= 600
-        width: 100%;
+    width: 28%;
+    @include respond(tab-port){ //width <= 600
+        width: 80%;
         margin-bottom: 3rem;
     }
-    @include  defaultShadow;
+    border-radius: .5rem;
+    @include  defaultShadowDark;
     text-align: center;
     padding: 2rem 1rem;
     &:not(:last-child){
         margin-right: 6rem;
+    }
+    @include respond(tab-port){ //width <= 600
+        &:not(:last-child){
+            margin-right: 0;
+        }
     }
 }
 
@@ -26,9 +30,7 @@
     display: flex;
     margin-top: 2rem;
     justify-content: space-around;
-    @include respond(phone){ //width <= 600
-        flex-direction: column;
-    }
+    flex-direction: column;
     a{
         text-decoration: none;
         text-transform: uppercase;
@@ -37,15 +39,12 @@
         padding: 1rem 2rem;
         font-size: 1.5rem;
         border-radius: .8rem;
-        @include respond(phone){ //width <= 600
-            margin-bottom: 2rem;
-            font-size: 2rem;
-        }
+        margin: .5rem;
     }
 }
 .project__title{
     font-size: 2rem;
 }
 .project__image{
-    width: 80%;
+    width: 100%;
 }

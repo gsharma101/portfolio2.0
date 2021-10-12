@@ -5,9 +5,11 @@
     top: 0;
     right: 0;
     position: absolute;
-    height: 100%;
     width: 75%;
+    height: 100vh;
+    margin-top: 9.5rem;
     background-color: $color-dark;
+    transition: .5s all;
     &--items{
         margin-bottom: 3rem;
         margin-left: 3rem;
@@ -18,4 +20,12 @@
             font-size: 2rem;
         }
     }
+}
+
+.width__none{
+    width: 0;
+}
+
+.width__display{
+    width: 75%;
 }

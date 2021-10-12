@@ -2,6 +2,11 @@
 const ToggleIcon = document.getElementById('nav-toggle');
 const mobileSideNev = document.getElementById('mobile__nevigation');
 const mobileNev = function(){
-    mobileSideNev.style.display= 'block';
+   if(mobileSideNev.style.width == 0)
+   {
+    mobileSideNev.style.width = '75%';  
+   }else{
+    mobileSideNev.style.width = 0;
+   }
 }
 ToggleIcon.addEventListener('click', mobileNev);
