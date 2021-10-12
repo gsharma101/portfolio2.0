@@ -7,10 +7,11 @@
     position: absolute;
     width: 75%;
     height: 100vh;
-    margin-top: 9.5rem;
+    margin-top: 8.8rem;
     background-color: $color-dark;
     transition: .5s all;
     &--items{
+        margin-top: 3rem;
         margin-bottom: 3rem;
         margin-left: 3rem;
         a{
@@ -21,11 +22,6 @@
         }
     }
 }
-
-.width__none{
-    width: 0;
-}
-
 .width__display{
-    width: 75%;
+    display: block;
 }

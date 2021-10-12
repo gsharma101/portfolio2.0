@@ -23,10 +23,10 @@ html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; }
   @media (max-width: 75em) {
     html {
-      font-size: 56.25%; } }
+      font-size: 60%; } }
   @media (max-width: 56.25em) {
     html {
-      font-size: 60%; } }
+      font-size: 58.23%; } }
   @media (max-width: 37.5em) {
     html {
       font-size: 40%; } }
@@ -134,7 +134,7 @@ body {
   .nevigation__logoBox {
     padding: 2rem; }
   .nevigation__logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;
     color: #000000; }
@@ -418,10 +418,11 @@ footer {
   position: absolute;
   width: 75%;
   height: 100vh;
-  margin-top: 9.5rem;
+  margin-top: 8.8rem;
   background-color: #0e2431;
   transition: .5s all; }
   .mobile__nevigation--items {
+    margin-top: 3rem;
     margin-bottom: 3rem;
     margin-left: 3rem; }
     .mobile__nevigation--items a {
@@ -430,11 +431,8 @@ footer {
       color: #fff;
       font-size: 2rem; }
 
-.width__none {
-  width: 0; }
-
 .width__display {
-  width: 75%; }
+  display: block; }
 
 .row {
   max-width: 114rem;
