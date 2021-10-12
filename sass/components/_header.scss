@@ -5,7 +5,7 @@
     align-items: center;
     padding: 1rem 0 1rem 0;
     justify-content: space-around;
-    @include respond(phone){ //width <= 600
+    @include respond(tab-port){ //width <= 600
         justify-content: space-between;
     }
     background-color: $color-white;
@@ -13,7 +13,7 @@
     &__toggle{
         display: none;
         margin-right: 2rem;
-        @include respond(phone){ //width <= 600
+        @include respond(tab-port){ //width <= 600
             display: block;
         }
         height: 4rem;
@@ -29,11 +29,14 @@
         font-weight: 700;
         text-decoration: none;
         color: $color-black;
+        @include respond(tab-port){ //width <= 600
+            font-size: 2rem;
+        }
     }
     &__menu{
         display: flex;
         flex-direction: row;
-        @include respond(phone){ //width <= 600
+        @include respond(tab-port){ //width <= 600
             display: none;
         }
         justify-content: center;
