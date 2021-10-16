@@ -1,6 +1,10 @@
 .nevigation{
     width: 100%;
     display: flex;
+    position: fixed;
+    z-index: 5000;
+    top: 0;
+    left: 0;
     flex-direction: row;
     align-items: center;
     padding: 1rem 0 1rem 0;
@@ -59,3 +63,7 @@
         }
     }
 }
+
+// .nevigation__active {
+//     border-bottom: 2.5px solid #4070F4;
+// }

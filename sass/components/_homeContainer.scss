@@ -1,5 +1,6 @@
 .home__container{
     display: flex;
+    margin-top: 9.5rem;
     justify-content: space-around;
     @include respond(tab-port){ //width <= 600
       flex-direction: column;
