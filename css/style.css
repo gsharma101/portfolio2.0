@@ -98,6 +98,10 @@ body {
 .u-margin-top-small {
   margin-top: 2rem !important; }
 
+.affect__link {
+  text-decoration: none;
+  color: white; }
+
 .resume__button {
   font-size: 2rem;
   text-transform: capitalize;
