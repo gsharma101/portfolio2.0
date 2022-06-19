@@ -117,6 +117,29 @@ body {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
     cursor: pointer; }
 
+.light_mode {
+  border: 2px solid black;
+  width: 5rem;
+  border-radius: 20px; }
+  .light_mode::after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.circle {
+  border: 5px solid black;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  background-color: black; }
+  .circle:hover {
+    cursor: pointer; }
+
+#sun_svg {
+  width: 2rem;
+  height: 2rem;
+  filter: brightness(0) invert(1); }
+
 .nevigation {
   width: 100%;
   display: flex;
