@@ -3,9 +3,8 @@
 const lightBtn = document.querySelector('.circle');
 const body = document.querySelector('body');
 const darkMode = function(){
-    body.style.backgroundColor = "black"; 
-    body.style.transition = "1s";
-    lightBtn.style.float = "right";
+    body.classList.toggle('body__change');
+    lightBtn.classList.toggle('circle__change');
 }
 
 lightBtn.addEventListener('click', darkMode);
