@@ -1,0 +1,24 @@
+.light_mode{
+    border: 2px solid black;
+    width: 5rem;
+    border-radius: 20px;
+    @include clearfix;
+}
+
+.circle{
+    border: 5px solid black;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+#sun_svg{
+    width: 2rem;
+    height: 2rem;
+    @include white;
+}
+
