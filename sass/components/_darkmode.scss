@@ -3,5 +3,6 @@
     height: 3rem;
     &:hover{
         cursor: pointer;
+        @include defaultShadow;
     }
 }
