@@ -103,6 +103,9 @@ body {
   text-decoration: none;
   color: white; }
 
+.filter__change {
+  filter: brightness(0) invert(1); }
+
 .resume__button {
   font-size: 2rem;
   text-transform: capitalize;
@@ -121,7 +124,11 @@ body {
   width: 3rem;
   height: 3rem; }
   .sun:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1); }
+
+.changetowhite {
+  color: white !important; }
 
 .nevigation {
   width: 100%;
@@ -134,7 +141,7 @@ body {
   align-items: center;
   padding: 1rem 0 1rem 0;
   justify-content: space-around;
-  background-color: #fff;
+  background-color: white;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1); }
   @media (max-width: 56.25em) {
     .nevigation {

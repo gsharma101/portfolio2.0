@@ -12,7 +12,7 @@
     @include respond(tab-port){ //width <= 600
         justify-content: space-between;
     }
-    background-color: $color-white;
+    background-color: white;
     @include defaultShadow;
     &__toggle{
         display: none;
