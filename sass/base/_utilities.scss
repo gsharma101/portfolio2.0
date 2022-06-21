@@ -39,3 +39,7 @@
 }
 
 // ! Dark Mode Classes
+
+.filter__change{
+  filter:  brightness(0) invert(1);
+}
